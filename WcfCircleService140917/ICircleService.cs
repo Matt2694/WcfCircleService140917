@@ -8,7 +8,7 @@ using System.Text;
 namespace WcfCircleService140917
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
-    [ServiceContract]
+    [ServiceContract(Namespace = "http://webservicedemo.datamatiker-skolen.dk/CircleService.svc")]
     public interface ICircleService
     {
         [OperationContract]
